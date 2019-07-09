@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HaliSaham2</string>
+    <string-array name="halisaha_names">
+        <item>"Halı Saha 1</item>
+        <item>"Halı Saha 2</item>
+        <item>"Halı Saha 3</item>
+        <item>"Halı Saha 4</item>
+        <item>"Halı Saha 5</item>
+        <item>"Halı Saha 6</item>
+        <item>"Halı Saha 7</item>
+        <item>"Halı Saha 8</item>
+        <item>"Halı Saha 9</item>
+        <item>"Halı Saha 10</item>
+    </string-array>
+
+    <string-array name="konum_names">
+        <item>"Konum 1</item>
+        <item>"Konum 2</item>
+        <item>"Konum 3</item>
+        <item>"Konum 4</item>
+        <item>"Konum 5</item>
+        <item>"Konum 6</item>
+        <item>"Konum 7</item>
+        <item>"Konum 8</item>
+        <item>"Konum 9</item>
+        <item>"Konum 10</item>
+    </string-array>
+</resources>

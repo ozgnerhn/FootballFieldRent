@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".View.SettingsPage">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="385dp"
+        android:layout_marginLeft="45dp"
+        android:text="Ses"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="305dp"
+        android:layout_marginLeft="45dp"
+        android:text="Müzik"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="505dp"
+        android:layout_centerInParent="true"
+        android:text="Ayarlar"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="215dp"
+        android:layout_centerInParent="true"
+        android:text="Sorun Bildir"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="310dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="455dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#fff"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="110dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="255dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="110dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="335dp"/>
+
+</RelativeLayout>
